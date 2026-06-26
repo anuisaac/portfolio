@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baan</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+
+    body{
+        font-family:Segoe UI, sans-serif;
+        background:#f4f8fc;
+        color:#333;
+        line-height:1.6;
+    }
+
+    .hero{
+       
+        background: linear-gradient(90deg, #0B192C 0%, #008DDA 100%);
+
+        color:white;
+        padding:80px 20px;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+        margin-bottom:15px;
+    }
+
+    .hero p{
+        max-width:700px;
+        margin:auto;
+        opacity:0.95;
+    }
+
+    .container{
+        width:90%;
+        max-width:1000px;
+        margin:40px auto;
+    }
+
+    .card{
+        background:white;
+        padding:30px;
+        border-radius:12px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom:30px;
+    }
+
+    h2{
+        color:#0f4c81;
+        margin-bottom:15px;
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+    li{
+        margin-bottom:10px;
+    }
+
+    .tech{
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .badge{
+        background:#dbeafe;
+        color:#0f4c81;
+        padding:8px 14px;
+        border-radius:20px;
+        font-weight:600;
+    }
+
+    .screenshots{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .placeholder{
+        height:180px;
+        background:#eaf2fb;
+        border:2px dashed #7aa8d8;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:10px;
+        color:#0f4c81;
+        font-weight:600;
+    }
+
+    .btn{
+        display:inline-block;
+        background:#0f4c81;
+        color:white;
+        padding:12px 20px;
+        text-decoration:none;
+        border-radius:8px;
+        margin-top:15px;
+    }
+
+    .btn:hover{
+        background:#1d72b8;
+    }
+    ...
+    .screenshots-section{
+    margin:60px 0;
+    padding:40px;
+    background:#ffffff;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(15,76,129,.08);
+}
+
+.screenshots-section h2{
+    color:#0f4c81;
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+.section-text{
+    color:#5c6b7a;
+    margin-bottom:35px;
+    line-height:1.7;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.image-card{
+    background:#f8fbff;
+    border-radius:14px;
+    overflow:hidden;
+    border:1px solid #d6e8fb;
+    transition:.3s ease;
+}
+
+.image-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 28px rgba(29,114,184,.18);
+}
+
+.image-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+}
+
+.image-card h3{
+    text-align:center;
+    padding:16px;
+    color:#0f4c81;
+    font-size:1rem;
+    font-weight:600;
+}
+    ....
+</style>
+
+
+</head>
+<body>
+
+<section class="hero">
+    <h1>Baan ~ A collection of Posts</h1>
+    <p>
+        A secure CRUD web application built using Laravel and MySQL,
+        featuring authentication with Laravel Breeze and efficient
+        database management using Eloquent ORM.
+    </p>
+</section>
+
+<div class="container">
+
+<div class="card">
+    <h2>Project Overview</h2>
+    <p>
+        A secure CRUD (Create, Read, Update, Delete) web application
+        developed using Laravel and MySQL. The application implements
+        Laravel Breeze authentication to provide secure user registration,
+        login, logout, password hashing, and session management.
+        Authenticated users can manage records through an intuitive
+        interface while maintaining data integrity and security.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Key Features</h2>
+    <ul>
+        <li>User Registration and Login</li>
+        <li>Laravel Breeze Authentication</li>
+        <li>Create, Read, Update and Delete Records</li>
+        <li>Session-Based Access Control</li>
+        <li>Responsive User Interface</li>
+        <li>Database Integration with MySQL</li>
+        
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Technologies Used</h2>
+    <div class="tech">
+        <span class="badge">Laravel</span>
+        <span class="badge">PHP</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Laravel Breeze</span>
+        <span class="badge">Blade</span>
+        <span class="badge">Tailwind CSS</span>
+        <span class="badge">Git</span>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Screenshots</h2>
+    
+    ,
+    <section class="screenshots-section">
+
+    
+    <p class="section-text">
+        A preview of the Laravel CRUD application showcasing authentication,
+        dashboard, and CRUD functionality.
+    </p>
+
+    <div class="gallery">
+
+        <div class="image-card">
+            <img src="images/login.webp" alt="Login Page">
+            <h3>Login</h3>
+        </div>
+        
+        <div class="image-card">
+            <img src="images/register.webp" alt="Login Page">
+            <h3>Register</h3>
+        </div>
+
+        <div class="image-card">
+            <img src="images/home.webp" alt="My Posts">
+            <h3>My Posts</h3>
+        </div>
+
+        <div class="image-card">
+            <img src="images/create.webp" alt="Create Post">
+            <h3>Create Post</h3>
+        </div>
+        
+        <div class="image-card">
+            <img src="images/read.webp" alt="Create Post">
+            <h3>Read Post</h3>
+        </div>
+
+        <div class="image-card">
+            <img src="images/update.webp" alt="Update Post">
+            <h3>Update Post</h3>
+        </div>
+
+    </div>
+
+</section>
+,
+    
+    
+ 
+</div>
+
+<div class="card">
+    <h2>What I Learned</h2>
+    <ul>
+        <li>Laravel MVC Architecture</li>
+        <li>Eloquent ORM</li>
+        <li>Authentication using Laravel Breeze</li>
+        <li>Database Design and Management</li>
+        <li>CRUD Operations</li>
+        <li>Git Version Control</li>
+    </ul>
+
+    <a href="https://github.com/anuisaac/Baan.git" class="btn">View GitHub Repository</a>
+</div>
+
+</div>
+
+</body>
+</html>
+
