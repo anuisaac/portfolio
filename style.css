@@ -6,6 +6,7 @@ body {
 }
 
 header {
+<<<<<<< HEAD
     background: linear-gradient(90deg, #0B192C 0%, #008DDA 100%);
     color: white;
      padding:80px 20px;
@@ -17,12 +18,21 @@ header {
     border-radius: 16px;
     box-shadow: 0 8px 25px rgba(15, 76, 129, 0.08);
 }
+=======
+    background-color: #da48dd;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+>>>>>>> 20d6b73cd727883c018e71cf521f494656529466
 section {
     padding: 30px;
     max-width: 900px;
     margin: auto;
 }
 
+<<<<<<< HEAD
  h2 {
     color: #0f4c81;
     font-size: 2rem;
@@ -46,17 +56,29 @@ section {
     max-width: 850px;
     letter-spacing: 0.3px;
 }
+=======
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+>>>>>>> 20d6b73cd727883c018e71cf521f494656529466
 .skills ul {
     list-style: none;
     padding: 0;
 }
 
 .skills li {
+<<<<<<< HEAD
     
+=======
+    background: #e0e6ed;
+>>>>>>> 20d6b73cd727883c018e71cf521f494656529466
     display: inline-block;
     margin: 5px;
     padding: 8px 12px;
     border-radius: 4px;
+<<<<<<< HEAD
     
      padding: 12px 22px;
     background: linear-gradient(135deg, #0f4c81, #1d72b8);
@@ -180,6 +202,10 @@ section {
     background:#1d72b8;
 }
 ...
+=======
+}
+
+>>>>>>> 20d6b73cd727883c018e71cf521f494656529466
 .project {
     background: white;
     padding: 20px;
@@ -199,7 +225,11 @@ section {
 }
 
 footer {
+<<<<<<< HEAD
      background: linear-gradient(90deg, #0B192C 0%, #008DDA 100%);
+=======
+    background-color: #da48dd;
+>>>>>>> 20d6b73cd727883c018e71cf521f494656529466
     color: white;
     text-align: center;
     padding: 15px;
